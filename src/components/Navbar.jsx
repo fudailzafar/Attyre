@@ -23,7 +23,7 @@ const Navbar = () => {
           className="md:hidden w-7 cursor-pointer"
           
         />
-        <h1 className="cookie text-4xl text-[#F63D68] cursor-pointer mr-32 md:mr-0">
+        <h1 className="cookie text-4xl text-[#F63D68] cursor-pointer hover:text-gray-400 mr-32 md:mr-0">
           attyre
         </h1>
         <ul className="hidden md:flex gap-7 text-black font-semibold inter">

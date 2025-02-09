@@ -9,16 +9,15 @@ const Hero = () => {
           <h1 className="playfair text-6xl  md:pt-20 font-semibold ">
             Personal Color Analysis
           </h1>
-          <p className="inter text-xl pt-5">
+          <p className="inter text-lg md:text-xl pt-5">
             Our{" "}
             <span className="text-[#F63D68]">
               AI-powered color analysis tool
             </span>{" "}
-            helps you discover the <br />
-            colors that enhance your natural beauty, match your unique <br />{" "}
-            features, and fit your personal style.{" "}
+            helps you discover the colors that enhance your natural beauty,
+            match your unique features, and fit your personal style.{" "}
           </p>
-          <p className="inter text-xl pt-5">
+          <p className="inter text-lg md:text-xl pt-5">
             Upload your photo get instant recommendations for your perfect color
             palette.
           </p>
@@ -45,8 +44,10 @@ const Hero = () => {
                     />
                   </svg>
                   <p className="mb-2 text-sm text-[#475467] ">
-                    <span className="font-semibold text-[#F63D68] inter">Click to upload</span> or drag
-                    and drop
+                    <span className="font-semibold text-[#F63D68] inter">
+                      Click to upload
+                    </span>{" "}
+                    or drag and drop
                   </p>
                   <p className="text-xs text-[#475467] inter">
                     SVG, PNG, JPG or GIF
@@ -65,7 +66,7 @@ const Hero = () => {
         </div>
       </div>
       {/* right column */}
-      <div className="w-full"> 
+      <div className="w-full">
         <img
           src="https://s3-alpha-sig.figma.com/img/222d/5ad3/82b7ffe09cbcc26bed72976b600ee33f?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CfL4nUbuX4k0o~yfgxEEHHn3mkJgtTheJvMiXv03TMDDNP9eEGXm7fNlhvoaYrf~dxge76R6fMjdNaT25EcGZNzfRdWPRZ3Dec4JLb~Uw2m2DPyFwRTTw7pq0YInpHhaWO7JaSbd6tSWjKnVWo6lYRHxglGh8vtCEvzGK8FFj3f90JNgcxOAvxR1Dqa0rxfIgBh9BybnOgdKIY4DycnN0N~DuvbSJ3HUJbOT-KBmEwxvHg85D66ENOsWQ46igFQJNo2EZNaDcnvMv9ZbBeOzoxyy3k4uUtx2kdD51bB78uIfErvwkuVplTEQ~mCkTBlsNGPnhR~uCgwPc4v9KWYELg__"
           alt="color_palette"
