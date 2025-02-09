@@ -27,27 +27,24 @@ const Navbar = () => {
           <Link to="/">attyre</Link>
         </h1>
         <ul className="hidden md:flex gap-7 text-black font-semibold inter">
-          <a href="/" className="cursor-pointer hover:text-gray-400">
+          <Link to="/" className="cursor-pointer hover:text-gray-400">
             Explore
-          </a>
-          <a href="/color" className="cursor-pointer hover:text-gray-400">
+          </Link>
+          <Link to="/color" className="cursor-pointer hover:text-gray-400">
             Color Analysis
-          </a>
-          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
+          </Link>
+          <Link to="/curations" className="cursor-pointer hover:text-gray-400">
             Curations
-          </a>
-          <a
-            href="#Testimonials"
-            className="cursor-pointer hover:text-gray-400"
-          >
+          </Link>
+          <Link to="/findthefit" className="cursor-pointer hover:text-gray-400">
             Find the Fit
-          </a>
-          <a
-            href="#Testimonials"
+          </Link>
+          <Link
+            to="/marketplace"
             className="cursor-pointer hover:text-gray-400"
           >
             Marketplace
-          </a>
+          </Link>
         </ul>
       </div>
       {/* ---- mobile menu ---- */}
@@ -60,41 +57,41 @@ const Navbar = () => {
           <X onClick={() => setShowMobileMenu(false)} className="w-6" alt="" />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-semibold inter">
-          <a
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            to="/"
             className="px-4 py-2 rounded-full inline-block "
           >
             Explore
-          </a>
-          <a
+          </Link>
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#About"
+            to="/color"
             className="px-4 py-2 rounded-full inline-block"
           >
             Color Analysis
-          </a>
-          <a
+          </Link>
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Projects"
+            to="/curations"
             className="px-4 py-2 rounded-full inline-block"
           >
             Curations
-          </a>
-          <a
+          </Link>
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Testimonials"
+            to="/findthefit"
             className="px-4 py-2 rounded-full inline-block"
           >
             Find the Fit
-          </a>
-          <a
+          </Link>
+          <Link
             onClick={() => setShowMobileMenu(false)}
-            href="#Testimonials"
+            to="/marketplace"
             className="px-4 py-2 rounded-full inline-block"
           >
             Marketplace
-          </a>
+          </Link>
         </ul>
       </div>
     </div>
