@@ -10,7 +10,7 @@ import {
 
 const Grid = () => {
   return (
-    <div className="mx-4 lg:mx-40">
+    <div className="mx-4 lg:mx-40 pt-8">
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 inter">
         <div className="text-center">
           <div className="flex items-center justify-center">

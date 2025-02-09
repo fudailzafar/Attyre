@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import { Menu } from "lucide-react";
 import { X } from "lucide-react";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
 
@@ -18,19 +19,18 @@ const Navbar = () => {
   return (
     <div className="w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px32 bg-transparent">
-      <Menu
+        <Menu
           onClick={() => setShowMobileMenu(true)}
           className="md:hidden w-7 cursor-pointer"
-          
         />
         <h1 className="cookie text-4xl text-[#F63D68] cursor-pointer hover:text-gray-400 mr-32 md:mr-0">
-          attyre
+          <Link to="/">attyre</Link>
         </h1>
         <ul className="hidden md:flex gap-7 text-black font-semibold inter">
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a href="/" className="cursor-pointer hover:text-gray-400">
             Explore
           </a>
-          <a href="#About" className="cursor-pointer hover:text-gray-400">
+          <a href="/color" className="cursor-pointer hover:text-gray-400">
             Color Analysis
           </a>
           <a href="#Projects" className="cursor-pointer hover:text-gray-400">
@@ -49,8 +49,6 @@ const Navbar = () => {
             Marketplace
           </a>
         </ul>
-
-        
       </div>
       {/* ---- mobile menu ---- */}
       <div
@@ -59,11 +57,7 @@ const Navbar = () => {
         }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
       >
         <div className="flex justify-start p-6 cursor-pointer">
-          <X
-            onClick={() => setShowMobileMenu(false)}
-            className="w-6"
-            alt=""
-          />
+          <X onClick={() => setShowMobileMenu(false)} className="w-6" alt="" />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-semibold inter">
           <a
