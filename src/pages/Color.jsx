@@ -1,12 +1,12 @@
 import React from "react";
-import Grid from "../components/Grid";
 import ImageUpload from "../components/ImageUpload";
+import Preferences from "../components/Preferences";
 
 const Color = () => {
   return (
     <div>
       <ImageUpload />
-      <Grid />
+      <Preferences />
     </div>
   );
 };
