@@ -1,8 +1,4 @@
-# React + Vite
+# Attyre
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About Us
+Attyre is a fashion-first social marketplace platform dedicated to transforming the shopping experience. By blending personalized styling, influencer-driven content, and seamless shopping, Attyre offers a dynamic space for users to discover and express their unique fashion sense. Join us in redefining how people shop for fashion online.
