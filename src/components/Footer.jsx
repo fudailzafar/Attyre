@@ -1,5 +1,6 @@
 import React from "react";
 import { Instagram, Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -27,7 +28,9 @@ const Footer = () => {
           <hr className="my-8" />
           <div className="flex flex-row justify-between text-white">
             <div>
-              <h3 className="cookie text-6xl">attyre</h3>
+              <Link to={"/"} className="w-[15%]">
+                <h3 className="cookie text-6xl w-[40%]">attyre</h3>
+              </Link>
               <p className="mt-5 mb-5">Reach out to us on info@attyre.app</p>
               <ul className="md:flex md:flex-row space-y-2 md:space-y-0 md:gap-8 md:font-semibold">
                 <li>Explore</li>
@@ -50,8 +53,8 @@ const Footer = () => {
               </h2>
             </div>
             <div className="mt-5 md:mt-0 flex flex-row gap-4">
-              <Linkedin color="white" />
-              <Instagram color="white" />
+              <Linkedin color="white" className="cursor-pointer" />
+              <Instagram color="white" className="cursor-pointer" />
             </div>
           </div>
         </div>
