@@ -1,5 +1,5 @@
 import React from "react";
-
+import color from "../assets/color_pallete.jpg"
 const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row w-full h-full">
@@ -68,7 +68,7 @@ const Hero = () => {
       {/* right column */}
       <div className="w-full">
         <img
-          src="https://s3-alpha-sig.figma.com/img/222d/5ad3/82b7ffe09cbcc26bed72976b600ee33f?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CfL4nUbuX4k0o~yfgxEEHHn3mkJgtTheJvMiXv03TMDDNP9eEGXm7fNlhvoaYrf~dxge76R6fMjdNaT25EcGZNzfRdWPRZ3Dec4JLb~Uw2m2DPyFwRTTw7pq0YInpHhaWO7JaSbd6tSWjKnVWo6lYRHxglGh8vtCEvzGK8FFj3f90JNgcxOAvxR1Dqa0rxfIgBh9BybnOgdKIY4DycnN0N~DuvbSJ3HUJbOT-KBmEwxvHg85D66ENOsWQ46igFQJNo2EZNaDcnvMv9ZbBeOzoxyy3k4uUtx2kdD51bB78uIfErvwkuVplTEQ~mCkTBlsNGPnhR~uCgwPc4v9KWYELg__"
+          src={color}
           alt="color_palette"
           className="w-full h-full"
         />

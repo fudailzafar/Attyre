@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Color from "./pages/Color";
+import Curations from "./pages/Curations";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/color" element={<Color />} />
+          <Route path="/curations" element={<Curations />} />
         </Routes>
         <Footer />
       </BrowserRouter>
