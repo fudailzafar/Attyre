@@ -1,5 +1,4 @@
 import React from "react";
-import color from "../assets/color_pallete.jpg"
 const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row w-full h-full">
@@ -66,11 +65,11 @@ const Hero = () => {
         </div>
       </div>
       {/* right column */}
-      <div className="w-full">
+      <div className="w-full overflow-hidden">
         <img
-          src={color}
+          src={"https://ik.imagekit.io/a5ujvxcmh/color_pallete.jpg?updatedAt=1743323607910"}
           alt="color_palette"
-          className="w-full h-full"
+          className="w-full h-full object-cover object-left scale-150"
         />
       </div>
     </div>
