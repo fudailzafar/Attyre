@@ -12,7 +12,7 @@ const Preferences = () => {
         </h3>
         <p className="inter font-normal text-sm text-start pt-1">
           Defines the intensity and vibrancy of the colors in the palette.
-        </p>
+        </p> 
         <hr className="mt-10" />
         <h3 className="inter font-semibold text-lg text-start pt-10">
           Seasonal Preferences{" "}
