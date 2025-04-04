@@ -21,7 +21,7 @@ const ImageUpload = () => {
           <div className="flex justify-between">
             <div>
               <img
-                src="https://s3-alpha-sig.figma.com/img/b426/fc13/9da786378ade134eaec7550f74aa536c?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PgAfV88pwXaqqp6gPhK4qUHANFmqdDqX3Ksl044oHluSX19XwlqR~b8LmPNosGEsqz4tQqdFRQJ0i88Dy5hzfZ~h3nSxnFXy~uIeW41tx2mQ4sCE2C4OqDooOZTpiLAxAS3RFY~NMZ1k0LU3YaCqoLt2u-sprzYZXSCkb~n-JVodGR5nNbmBy-1y3AiHcg4UB7VnEsuPcYX3KOmrKOhhwJTEy6kcUVQO-far2V2GyIcflgb3EyT8DEnfl4WLUpfwfu95enOyTWZKYVa~WJbAV~1LmSTeE-xyXUiZnyifErC1PICgbKX0JPpjp781sLjG07pILJeYlUyDqYaGdLU~pg__"
+                src="https://ik.imagekit.io/a5ujvxcmh/9da786378ade134eaec7550f74aa536c.jpeg?updatedAt=1743323705536"
                 alt=""
                 className="w-[286px] md:w-[666px] h-[382px] md:h-[500px] object-cover"
               />
