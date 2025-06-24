@@ -1,4 +1,5 @@
 import React from "react";
+import ColourSection from "./ColourSection";
 
 const Personalised = () => {
   return (
@@ -24,6 +25,27 @@ const Personalised = () => {
           <h2 className="playfair font-semibold text-2xl text-[#0C111D] mt-6">
             Recommended Colors
           </h2>
+        </div>
+        <div>
+          <ColourSection />
+        </div>
+        <div>
+          <ColourSection />
+        </div>
+        <div>
+          <ColourSection />
+        </div>
+        <div>
+          <ColourSection />
+        </div>
+        <div>
+          <ColourSection />
+        </div>
+        <div>
+          <ColourSection />
+        </div>
+        <div>
+          <ColourSection />
         </div>
       </div>
     </div>
