@@ -3,8 +3,8 @@ import ColourSection from "./ColourSection";
 
 const Personalised = () => {
   return (
-    <div className="bg-[#F8F7F4]">
-      <div className="flex flex-col w-[70%] justify-center items-start mx-auto">
+    <div className="bg-[#F8F7F4] mx-auto">
+      <div className="flex flex-col w-[80%] md:w-[70%] justify-center items-start mx-auto">
         <div>
           <h1 className="playfair font-semibold text-4xl text-[#0C111D] mt-5">
             Your Personalized Palette
@@ -40,6 +40,9 @@ const Personalised = () => {
         </div>
         <div>
           <ColourSection />
+        </div>
+        <div>
+          <h2 className="playfair text-[#0C111D] font-semibold text-2xl">Colors to Avoid</h2>
         </div>
         <div>
           <ColourSection />

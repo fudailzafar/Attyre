@@ -2,7 +2,7 @@ import React from "react";
 
 const ColourSection = () => {
   return (
-    <div className="w-[100%] flex flex-row max-w-96 gap-10 py-10">
+    <div className="w-[100%] flex flex-row max-w-96 gap-10 py-5">
       <div>
         <div className="px-[90px] py-[100px] bg-[#228B22]"></div>
         <div>
