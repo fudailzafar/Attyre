@@ -15,7 +15,7 @@ const Preferences = () => {
           Defines the intensity and vibrancy of the colors in the palette.
         </p>
         <hr className="my-3 border" />
-        <div className="flex justify-start items-center gap-2">
+        <div className="flex flex-wrap justify-start items-center gap-2">
           <Badge label={"Bold"} />
           <Badge label={"Vibrant"} />
           <Badge label={"Muted"} />
@@ -48,7 +48,7 @@ const Preferences = () => {
           Find colors that fit the occasion, from casual to formal.{" "}
         </p>
         <hr className="my-3 border" />
-        <div className="flex justify-start items-center gap-2">
+        <div className="flex flex-wrap justify-start items-center gap-2">
           <Badge label={"Casual"} />
           <Badge label={"Everyday"} />
           <Badge label={"Work"} />
@@ -64,7 +64,7 @@ const Preferences = () => {
           Match colors to your unique style, whether minimal or bold.{" "}
         </p>
         <hr className="my-3 border" />
-        <div className="flex justify-start items-center gap-2">
+        <div className="flex flex-wrap justify-start items-center gap-2">
           <Badge label={"Minimalist"} />
           <Badge label={"Maximalist"} />
           <Badge label={"Modern"} />
