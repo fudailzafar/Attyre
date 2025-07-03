@@ -51,7 +51,7 @@ const Navbar = () => {
       <div
         className={`md:hidden ${
           showMobileMenu ? "fixed w-full" : "h-0 w-0"
-        }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all`}
+        }  right-0 top-0 bottom-0 overflow-hidden bg-white transition-all z-50`}
       >
         <div className="flex justify-start p-6 cursor-pointer">
           <X onClick={() => setShowMobileMenu(false)} className="w-6" alt="" />
